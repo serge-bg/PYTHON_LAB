@@ -11,7 +11,7 @@
 
 # Defining two variables
 city = "Kigali"  # my favorite city name
-temperature = 21.5  # Today is a raining day in Kigalli
+temperature = 21.5  # Today is a raining day in Kigali.
 
 # Using an f-string to display the sentence
 sentence = f"The current temperature in {city} is {temperature}°C"
