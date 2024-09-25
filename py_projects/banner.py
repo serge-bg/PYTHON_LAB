@@ -18,4 +18,3 @@ message = f"WELCOME TO STREET FIGHTER: {name}"
 print("#" * 38)
 print(f"#  {message}  #")
 print("#" * 38)
-
