@@ -26,16 +26,16 @@ Please submit your code by [insert due date here] in a file named reverse_list_a
 # List called laura_things with these specified items
 laura_things = ["sewing machine", "scissor", "cutting mat", "television"]
 
-# Reversing the order of items using slicing
-reversed_laura_things = laura_things[::-1]
-
-# Transfering items from the reversed list into reversed_things (new list)
+# empty list to store the reversed items
 reversed_things = []
-for item in reversed_laura_things:
-    reversed_things.append(item)
+
+# Manually reversing the list using a loop
+for i in range(len(laura_things) - 1, -1, -1):
+    reversed_things.append(laura_things[i])
 
 # Printing the new list reversed_things 
 print(reversed_things)
 
 # Bonus Challenge: message after the list is reversed
 print("The list has been successfully reversed!")
+ 
